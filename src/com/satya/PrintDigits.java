@@ -16,8 +16,8 @@ public class PrintDigits {
             n = n / 10;
             nod++;
 
-            System.out.println(nod);
         }
+        System.out.println(nod);
 
     }
 }
