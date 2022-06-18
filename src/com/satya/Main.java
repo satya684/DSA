@@ -13,11 +13,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        while (n != 0){
+        while (n != 0) {
 
-            int dig = n % 10;
+            int dig = n % 10; // mod for remainder
 
-            n = n / 10;
+            n = n / 10; // user ke diye gye number ko chhota krne ke liye
 
             System.out.println(dig);
         }
