@@ -7,6 +7,7 @@ public class Pattern26 {
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
+        // change
 
         int n = scn.nextInt();
 
