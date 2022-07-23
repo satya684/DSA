@@ -2,28 +2,39 @@ package com.satya.functions;
 
 import java.util.Scanner;
 
-public class DecimalToAnyBase {
-
+public class AnyBTAB {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int b = sc.nextInt();
 
-        int ans = checking(n, b);
+        int b1 = sc.nextInt();
+
+        int b2 = sc.nextInt();
+
+        int ans = chcekFun(n, b1, b2);
 
         System.out.println(ans);
+    }
+
+    public static int chcekFun(int n, int b1, int b2) {
+
+        int dec = 0;
+
+        int anyBaseToAnyBase = 0;
+
+        return anyBaseToAnyBase;
 
     }
 
-    private static int checking(int n, int b) {
+    public static int anyBaseToDecimal(int n, int b) {
 
         int rv = 0;
 
         int p = 1;
 
-        while (n > 0) {
+        while (n > 0){
 
             int dig = n % b;
 
@@ -36,6 +47,5 @@ public class DecimalToAnyBase {
         }
 
         return rv;
-
     }
 }
